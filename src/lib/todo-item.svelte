@@ -1,0 +1,42 @@
+<div>
+  <form 
+    action=""
+    method=""
+  >
+    <input 
+      type="hidden"
+      name="done"
+      value=""
+    />
+    <button
+      aria-label="Mark done/not done"
+    >
+      Done/Not done
+    </button>
+  </form>
+  <form 
+    action=""
+    method=""
+  >
+    <input 
+      type="text"
+      name="done"
+      value=""
+    />
+    <button
+      aria-label="Save changes"
+    >
+      Save
+    </button>
+  </form>
+  <form 
+    action=""
+    method=""
+  >
+    <button
+      aria-label="Delete"
+    >
+      Delete
+    </button>
+  </form>
+</div>
