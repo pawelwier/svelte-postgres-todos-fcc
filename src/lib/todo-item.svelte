@@ -1,3 +1,7 @@
+<script lang="ts">
+  export let todo: Todo
+</script>
+
 <style>
   .todo {
     display: grid;
@@ -100,7 +104,7 @@
     <input 
       type="text"
       name="done"
-      value=""
+      value="{todo.text}"
     />
     <button
       class="save"

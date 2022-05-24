@@ -1,10 +1,11 @@
 /// <reference types="@sveltejs/kit" />
 
-// See https://kit.svelte.dev/docs/types#app
-// for information about these interfaces
+type Todo = {
+	createdAt: Date
+	text: string
+	done: boolean
+}
+
 declare namespace App {
-	// interface Locals {}
-	// interface Platform {}
-	// interface Session {}
-	// interface Stuff {}
+
 }
