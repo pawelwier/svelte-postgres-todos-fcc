@@ -28,7 +28,7 @@
     border-radius: 3px;
   }
 
-  .toggle {
+  button.toggle {
     border: 1px solid rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     box-sizing: border-box;
@@ -62,6 +62,16 @@
   .delete:focus {
     transition: 0.2s opacity;
     opacity: 1;
+  }
+
+  .done {
+    transform: none;
+    opacity: 0.5;
+    filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.2));
+  }
+
+  .done .toggle {
+    background-color: red;
   }
 </style>
 
