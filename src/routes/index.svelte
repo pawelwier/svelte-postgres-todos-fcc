@@ -5,7 +5,7 @@
   import type { Load } from '@sveltejs/kit' 
   
   export const load: Load = async ({ fetch }) => {
-    const res = await fetch('/todos.json')
+    const res = await fetch('/todos.json?zxcv=1234')
     if (res.ok) {
       const todos = await res.json()
       return {

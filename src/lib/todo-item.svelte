@@ -68,7 +68,7 @@
     opacity: 1;
   }
 
-  .done {
+  /* .done {
     transform: none;
     opacity: 0.5;
     filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.2));
@@ -76,7 +76,7 @@
 
   .done .toggle {
     background-color: red;
-  }
+  } */
 </style>
 
 <div class="todo">
@@ -114,8 +114,8 @@
     </button>
   </form>
   <form 
-    action=""
-    method=""
+    action="/todos/{todo.uid}.json?_method=delete"
+    method="post"
   >
     <button
       class="delete"
